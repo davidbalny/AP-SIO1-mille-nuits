@@ -2,7 +2,7 @@ site_name: Mon Site Markdown
 site_url: https://davidbalny.github.io/AP-SIO1-mille-nuits/
 theme:
   name: material
-  logo: assets/images/logo-ap.png
+  logo: assets/logo-ap.png
   logo_width: 200px
 
 nav:
