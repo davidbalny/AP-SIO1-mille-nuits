@@ -1,0 +1,5 @@
+/* Agrandir le logo dans le bandeau principal */
+.md-header-nav__logo img {
+    max-height: 80px;  /* Ajuste cette valeur */
+    width: auto;
+}
