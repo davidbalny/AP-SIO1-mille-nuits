@@ -3,7 +3,7 @@ site_url: https://davidbalny.github.io/AP-SIO1-mille-nuits/
 theme:
   name: material
   logo: assets/logo-ap.png
-  logo_width: 200px
+  logo_width: 400px
 
 nav:
   - Accueil: index.md
