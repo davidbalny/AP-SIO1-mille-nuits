@@ -1,18 +1,10 @@
-/* Augmente la hauteur du logo dans le bandeau */
-.md-header-nav__logo-container img {
-    max-height: 80px;   /* Hauteur du logo */
-    width: auto;
+/* Augmente la hauteur du bandeau */
+:root {
+  --md-header-height: 96px; /* ajuste : 80 / 96 / 112 */
 }
 
-/* Ajuste la hauteur du header pour qu’il s’adapte */
-.md-header {
-    height: 300px;      /* Hauteur totale du header */
-}
-
-/* Aligne verticalement le logo */
-.md-header-nav__title {
-    line-height: 300px; /* Même valeur que le header */
-}
-.md-header {
-  background-color: red !important;
+/* Agrandit le logo */
+.md-header__button.md-logo img {
+  height: 72px;   /* taille du logo */
+  width: auto;
 }
