@@ -2,6 +2,7 @@ site_name: Mon Site Markdown
 site_url: https://USERNAME.github.io/mon-site-md/
 theme:
   name: material
+  logo: assets/logo-ap.png
 
 nav:
   - Accueil: index.md
