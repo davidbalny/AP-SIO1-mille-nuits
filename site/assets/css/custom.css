@@ -13,3 +13,6 @@
 .md-header-nav__title {
     line-height: 300px; /* Même valeur que le header */
 }
+.md-header {
+  background-color: red !important;
+}
