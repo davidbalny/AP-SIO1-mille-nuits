@@ -176,6 +176,30 @@
       "bases:Create new base": false
     }
   },
-  "active": "62db95c4c31e1ee8",
-  "lastOpenFiles": []
+  "active": "32a57af7f5973f44",
+  "lastOpenFiles": [
+    "site/search/search_index.json",
+    "site/search",
+    "site/index.html",
+    "site/sitemap.xml.gz",
+    "site/sitemap.xml",
+    "site/404.html",
+    "site/assets/stylesheets/palette.ab4e12ef.min.css.map",
+    "site/assets/stylesheets/palette.ab4e12ef.min.css",
+    "site/assets/stylesheets/main.484c7ddc.min.css.map",
+    "site/assets/stylesheets/main.484c7ddc.min.css",
+    "site/assets/stylesheets",
+    "site/assets/images/favicon.png",
+    "venv/lib/python3.14/site-packages/material/templates/assets/images/favicon.png",
+    "venv/lib/python3.14/site-packages/mkdocs/themes/readthedocs/css/fonts/fontawesome-webfont.svg",
+    "venv/lib/python3.14/site-packages/mkdocs/themes/mkdocs/img/grid.png",
+    "venv/lib/python3.14/site-packages/mkdocs_get_deps-0.2.0.dist-info/licenses/LICENSE.md",
+    "venv/lib/python3.14/site-packages/pymdown_extensions-10.20.1.dist-info/licenses/LICENSE.md",
+    "venv/lib/python3.14/site-packages/backrefs-6.1.dist-info/licenses/LICENSE.md",
+    "venv/lib/python3.14/site-packages/idna-3.11.dist-info/licenses/LICENSE.md",
+    "venv/lib/python3.14/site-packages/markdown-3.10.1.dist-info/licenses/LICENSE.md",
+    "venv/lib/python3.14/site-packages/mkdocs_material_extensions-1.3.1.dist-info/licenses/LICENSE.md",
+    "venv/lib/python3.14/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md",
+    "venv/lib/python3.14/site-packages/pip/_vendor/idna/LICENSE.md"
+  ]
 }
