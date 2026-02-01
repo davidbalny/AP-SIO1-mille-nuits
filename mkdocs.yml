@@ -1,0 +1,7 @@
+site_name: Mon Site Markdown
+site_url: https://USERNAME.github.io/mon-site-md/
+theme:
+  name: material
+
+nav:
+  - Accueil: index.md
