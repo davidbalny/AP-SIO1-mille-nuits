@@ -1,5 +1,15 @@
-/* Agrandir le logo dans le bandeau principal */
+/* Augmente la hauteur du logo dans le bandeau */
 .md-header-nav__logo-container img {
-    max-height: 80px;  /* Ajuste cette valeur */
+    max-height: 80px;   /* Hauteur du logo */
     width: auto;
+}
+
+/* Ajuste la hauteur du header pour qu’il s’adapte */
+.md-header {
+    height: 300px;      /* Hauteur totale du header */
+}
+
+/* Aligne verticalement le logo */
+.md-header-nav__title {
+    line-height: 300px; /* Même valeur que le header */
 }
