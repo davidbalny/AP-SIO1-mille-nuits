@@ -2,10 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://davidbalny.github.io/AP-SIO1-mille-nuits/</loc>
-         <lastmod>2026-02-01</lastmod>
+         <lastmod>2026-02-02</lastmod>
     </url>
     <url>
-         <loc>https://davidbalny.github.io/AP-SIO1-mille-nuits/Situation%201/</loc>
-         <lastmod>2026-02-01</lastmod>
+         <loc>https://davidbalny.github.io/AP-SIO1-mille-nuits/Situation%202/</loc>
+         <lastmod>2026-02-02</lastmod>
+    </url>
+    <url>
+         <loc>https://davidbalny.github.io/AP-SIO1-mille-nuits/Documentations/SP1-Architecture%20r%C3%A9seau/Situation%201/</loc>
+         <lastmod>2026-02-02</lastmod>
     </url>
 </urlset>
