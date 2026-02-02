@@ -1,90 +1,114 @@
-# Contexte Mille
+# Calcul des besoins en hôtes et plan d’adressage IP
 
-## 1. Secteur d’activité
-La production textile est majoritairement délocalisée en Asie, mais la fabrication de **couettes, oreillers et couvertures** reste en partie européenne en raison :
-- d’un besoin limité en main-d’œuvre,
-- du coût élevé du transport des matières premières volumineuses (ouate, plumes).
+## Calcul des besoins en hôtes (avec marge)
 
-Le secteur intègre de fortes **exigences écologiques et sanitaires** :
-- respect de l’environnement,
-- confort et entretien des produits,
-- santé des consommateurs (antiacariens, anti-allergènes),
-- traçabilité et origine des fibres naturelles (plumes, duvets).
+Une marge de **20 %** est appliquée afin d’anticiper les évolutions futures (nouveaux postes, équipements supplémentaires).
 
-Principaux acteurs du marché français :  
-**Dodo, Abeil, Lestra, Plumka, Tempur, Pyrénex**.
+### 🔹 Administratif
+- 46 PC + 6 imprimantes = **52 hôtes**
+- Marge 20 % → 52 × 1,2 = **62,4** → **63 hôtes**
 
----
+### 🔹 Autres
+- 90 PC + 10 imprimantes = **100 hôtes**
+- Marge 20 % → 100 × 1,2 = **120 hôtes**
 
-## 2. Présentation de l’entreprise Mille Nuits
-- **Statut** : SA au capital de 4 500 000 €
-- **Positionnement** : leader français des couettes et oreillers
-- **Production** : plus de 35 000 articles par jour
-- **Clients** :
-  - distributeurs (marque distributeur),
-  - hôtellerie,
-  - collectivités (notamment hôpitaux),
-  - vente par correspondance (La Redoute, 3 Suisses),
-  - particuliers.
+### 🔹 Production
+- 100 PC + 10 imprimantes = **110 hôtes**
+- Marge 20 % → 110 × 1,2 = **132 hôtes**
 
-### Implantation
-- **Site historique (Baugé-en-Anjou)** :
-  - production,
-  - administration,
-  - siège social (locaux en propriété).
-- **Site logistique (Joué-lès-Tours)** :
-  - stockage et expédition,
-  - parfois stockage de matières premières,
-  - locaux loués.
-- Distance entre les sites : **90 km**, liaison autoroutière proche.
+### 🔹 Logistique
+- 25 PC + 5 imprimantes = **30 hôtes**
+- Marge 20 % → 30 × 1,2 = **36 hôtes**
 
-### Effectif
-- **167 salariés** (+ intérimaires ponctuels)
-- Répartition principale :
-  - Production : 81
-  - Logistique : 36
-  - Ventes : 24
-  - Informatique : 3
-  - Autres services (qualité, BE, achats, RH, direction…)
+### 🔹 Ventes / Études
+- 40 PC + 8 imprimantes = **48 hôtes**
+- Marge 20 % → 48 × 1,2 = **57,6** → **58 hôtes**
+
+### 🔹 Serveurs
+- Réseau imposé : **172.16.5X.0/24**
+- **254 hôtes utilisables**  
+- Aucune marge supplémentaire demandée
 
 ---
 
-## 3. Système informatique
+## Détermination des masques nécessaires
 
-### 3.1 Infrastructures
-- **Serveur réseau (Windows Server)** : AD, DNS, DHCP, fichiers
-- **Serveur de messagerie**
-- **Serveur PGI (Open ERP)** :
-  - ventes, achats, stocks,
-  - comptabilité
-- **Site Internet** hébergé à l’extérieur
-- Antivirus installé sur chaque poste
-- Gestion du parc via tableur
-- Réseau de production automatisé isolé et géré par un prestataire externe
-
-### 3.2 Gestion du SI
-- Équipe interne :
-  - 1 technicien système/réseau & informatique industrielle,
-  - 1 technicien système & développement,
-  - 1 DSI.
-- Prestataire externe :
-  - maintenance du PGI,
-  - développements majeurs.
-- Réseau principalement géré en interne.
-
-### 3.3 Équipements utilisateurs
-- Postes fixes Windows pour la majorité du personnel
-- Ordinateurs portables Windows pour :
-  - commerciaux,
-  - direction,
-  - responsables.
-- Pas de Wi-Fi : connexions Ethernet uniquement
-- Accès informatique limité en production et logistique
-- Messagerie nominative : `prenom.nom@millenuits.com`
+| Sous-réseau        | Hôtes nécessaires | Masque | Hôtes possibles |
+|--------------------|------------------|--------|-----------------|
+| Production         | 132              | /24    | 254             |
+| Autres             | 120              | /25    | 126             |
+| Administratif      | 63               | /25    | 126             |
+| Ventes / Études    | 58               | /26    | 62              |
+| Logistique         | 36               | /26    | 62              |
+| Serveurs           | —                | /24    | 254             |
 
 ---
 
-### Serveurs (site historique)
-- **MN01** : AD, DNS, DHCP, fichiers
-- **MN02** : messagerie
-- **MN03** : PGI (ventes, achats, stocks, comptabilité)
+## Attribution VLSM (du plus grand au plus petit)
+
+- **Réseau de base** : `172.40.0.0/16`
+
+### 🟦 Production
+- Adresse réseau : `172.40.0.0/24`
+- Masque : `255.255.255.0`
+- Plage hôtes : `172.40.0.1 → 172.40.0.254`
+- Adresse de diffusion : `172.40.0.255`
+- Passerelle : `172.40.0.254`
+
+---
+
+### 🟦 Autres
+- Adresse réseau : `172.40.1.0/25`
+- Masque : `255.255.255.128`
+- Plage hôtes : `172.40.1.1 → 172.40.1.126`
+- Adresse de diffusion : `172.40.1.127`
+- Passerelle : `172.40.1.126`
+
+---
+
+### 🟦 Administratif
+- Adresse réseau : `172.40.1.128/25`
+- Masque : `255.255.255.128`
+- Plage hôtes : `172.40.1.129 → 172.40.1.254`
+- Adresse de diffusion : `172.40.1.255`
+- Passerelle : `172.40.1.254`
+
+---
+
+### 🟦 Ventes / Études
+- Adresse réseau : `172.40.2.0/26`
+- Masque : `255.255.255.192`
+- Plage hôtes : `172.40.2.1 → 172.40.2.62`
+- Adresse de diffusion : `172.40.2.63`
+- Passerelle : `172.40.2.62`
+
+---
+
+### 🟦 Logistique
+- Adresse réseau : `172.40.2.64/26`
+- Masque : `255.255.255.192`
+- Plage hôtes : `172.40.2.65 → 172.40.2.126`
+- Adresse de diffusion : `172.40.2.127`
+- Passerelle : `172.40.2.126`
+
+---
+
+### 🟥 Serveurs (réseau imposé)
+- Adresse réseau : `172.16.5X.0/24`
+- Masque : `255.255.255.0`
+- Plage hôtes : `172.16.5X.1 → 172.16.5X.254`
+- Adresse de diffusion : `172.16.5X.255`
+- Passerelle : `172.16.5X.253`
+
+---
+
+## Récapitulatif synthétique
+
+| Sous-réseau        | Adresse réseau        | Masque              | Diffusion           | Passerelle          |
+|--------------------|-----------------------|---------------------|---------------------|---------------------|
+| Production         | 172.40.0.0/24         | 255.255.255.0       | 172.40.0.255        | 172.40.0.254        |
+| Autres             | 172.40.1.0/25         | 255.255.255.128     | 172.40.1.127        | 172.40.1.126        |
+| Administratif      | 172.40.1.128/25       | 255.255.255.128     | 172.40.1.255        | 172.40.1.254        |
+| Ventes / Études    | 172.40.2.0/26         | 255.255.255.192     | 172.40.2.63         | 172.40.2.62         |
+| Logistique         | 172.40.2.64/26        | 255.255.255.192     | 172.40.2.127        | 172.40.2.126        |
+| Serveurs           | 172.16.5X.0/24        | 255.255.255.0       | 172.16.5X.255       | 172.16.5X.253       |
