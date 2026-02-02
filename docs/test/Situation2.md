@@ -1,4 +1,4 @@
-# Contexte de l’entreprise Mille Nuits
+# Contexte Mille Nuits
 
 ## 1. Secteur d’activité
 La production textile est majoritairement délocalisée en Asie, mais la fabrication de **couettes, oreillers et couvertures** reste en partie européenne en raison :
