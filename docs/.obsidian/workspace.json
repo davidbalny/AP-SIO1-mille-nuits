@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Documentations/SP1-Gestion de l’infrastructure réseau/SP1.md",
+                "file": "Documentations/SP2-Gestion du parc informatique/SP2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SP1"
+              "title": "SP2"
             }
           }
         ]
@@ -183,9 +183,11 @@
   },
   "active": "c91d313acd1fecaa",
   "lastOpenFiles": [
+    "Documentations/SP1-Gestion de l’infrastructure réseau/SP1.md",
+    "Documentations/SP2-Gestion du parc informatique/SP2.md",
+    "Documentations/SP2-Gestion du parc informatique",
     "Documentations/SP1-Gestion de l’infrastructure réseau",
     "test/Situation2.md",
-    "Documentations/SP1-Gestion de l’infrastructure réseau/SP1.md",
     "Documentations/SP1-Architecture réseau/01--Situation 1.md",
     "test",
     "Test/Situation2.md",
