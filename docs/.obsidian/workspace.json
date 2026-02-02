@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Test/Situation2.md",
+                "file": "Documentations/SP1-Architecture réseau/01--Situation 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Situation2"
+              "title": "01--Situation 1"
             }
           }
         ]
@@ -183,8 +183,11 @@
   },
   "active": "c91d313acd1fecaa",
   "lastOpenFiles": [
-    "Documentations/SP1-Architecture réseau/01--Situation 1.md",
     "Test/Situation2.md",
+    "test/Situation2.md",
+    "test/Situation 2 1.md",
+    "test",
+    "Documentations/SP1-Architecture réseau/01--Situation 1.md",
     "Situation 2.md",
     "Situation2.md",
     "Test/Situation 2 1.md",
