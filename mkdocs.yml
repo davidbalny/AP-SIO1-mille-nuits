@@ -31,6 +31,6 @@ markdown_extensions:
       alternate_style: true
 nav:
   - Accueil: index.md
-  - Test1: test/Situation2.md
+  - SP1-Gestion de l’infrastructure réseau: test/Situation2.md
 
 use_directory_urls: false
