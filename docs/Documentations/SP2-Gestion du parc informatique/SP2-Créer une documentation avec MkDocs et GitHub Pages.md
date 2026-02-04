@@ -212,20 +212,3 @@ Exemple de note (thème Material) :
     
 - GitHub Pages : [https://pages.github.com](https://pages.github.com)
     
-
----
-
-Fin du tutoriel.
-
-```
-
----
-
-Si tu veux, je peux maintenant :
-- réduire encore pour un **TP étudiant**
-- adapter pour **Linux only**
-- fournir une **version PDF**
-- ajouter une **CI GitHub Actions**
-
-Dis-moi 👍
-```
