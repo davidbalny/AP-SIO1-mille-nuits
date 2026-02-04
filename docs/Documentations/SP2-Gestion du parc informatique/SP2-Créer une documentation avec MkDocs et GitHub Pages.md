@@ -122,6 +122,7 @@ pip install mon-projet
 ## Utilisation
 
 Lancer la commande principale du projet.
+### 7. Configurer le site
 
 ````
 
