@@ -1,5 +1,12 @@
 Tutoriel complet : Créer une documentation avec MkDocs et GitHub Pages
--
+---
+
+````markdown
+# Tutoriel complet : Créer une documentation avec MkDocs et GitHub Pages
+
+Ce document décrit pas à pas**, dans un **seul fichier Markdown**, comment installer les prérequis, créer une documentation en Markdown, la générer avec MkDocs et la publier sur GitHub Pages.
+
+---
 
 ## Objectif
 
