@@ -2,13 +2,13 @@
 ## Préparation des prérequis
 ### 1. Installer Git
 #### Linux (Debian / Ubuntu)
----
+
 ```bash
 sudo apt update
 sudo apt install git -y
 ````
 #### macOS
----
+
 ```bash
 brew install git
 ````
