@@ -195,11 +195,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "32a57af7f5973f44",
+  "active": "62db95c4c31e1ee8",
   "lastOpenFiles": [
-    "site/Documentations/SP2-Gestion du parc informatique/SP2-Environnement Markdown.html",
     "docs/Documentations/SP2-Gestion du parc informatique/SP2.md",
     "docs/Documentations/SP2-Gestion du parc informatique/SP2-Environnement Markdown.md",
+    "site/Documentations/SP2-Gestion du parc informatique/SP2-Environnement Markdown.html",
     "docs/Documentations/SP1-Gestion de l’infrastructure réseau/SP1.md",
     "SP1.pdf",
     "2026-02-04.md",
@@ -214,7 +214,6 @@
     "docs/Documentations/SP1-Gestion de l’infrastructure réseau",
     "docs/Documentations/SP2-Gestion du parc informatique",
     "docs/Documentations",
-    "site/search/search_index.json",
     "site/assets/logo-ap.png",
     "site/assets/images/logo-ap.png",
     "docs/assets/logo-ap.png",
