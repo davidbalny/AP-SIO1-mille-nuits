@@ -11,17 +11,14 @@
             "id": "62db95c4c31e1ee8",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Sans titre.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "docs/Documentations/SP1-Gestion de l’infrastructure réseau/SP1.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Sans titre"
+              "icon": "lucide-file",
+              "title": "SP1"
             }
           }
         ]
@@ -97,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "docs/Documentations/SP1-Gestion de l’infrastructure réseau/SP1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétroliens"
+              "title": "Rétrolien pour SP1"
             }
           },
           {
@@ -166,8 +164,19 @@
               "icon": "lucide-list",
               "title": "Plan de index"
             }
+          },
+          {
+            "id": "e6a8e76c955da55e",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -186,10 +195,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "32a57af7f5973f44",
+  "active": "62db95c4c31e1ee8",
   "lastOpenFiles": [
-    "Sans titre.canvas",
     "2026-02-04.md",
+    "Sans titre.canvas",
     "venv/lib/python3.14/site-packages/idna-3.11.dist-info/licenses/LICENSE.md",
     "docs/Documentations/SP2-Gestion du parc informatique/SP2.md",
     "docs/Documentations/SP1-Gestion de l’infrastructure réseau/SP1.md",
