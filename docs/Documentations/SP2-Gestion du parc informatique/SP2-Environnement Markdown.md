@@ -1,45 +1,106 @@
+Parfait, merci pour la précision 👍  
+Voici **UN SEUL fichier Markdown**, **copier-coller direct**, **auto-suffisant**, avec **l’installation des prérequis incluse**.  
+Tu peux le coller tel quel dans `docs/index.md` ou `README.md`.
+
+Aucun blabla autour, **juste la page MD complète** 👇
+
+---
 
 ````markdown
-# Tutoriel Complet : Documentation Markdown avec MkDocs et GitHub Pages
+# Tutoriel complet : Créer une documentation avec MkDocs et GitHub Pages
 
-Ce tutoriel explique **pas à pas** comment créer, structurer et publier une documentation technique en **Markdown** avec **MkDocs** et **GitHub Pages**, le tout sur **une seule page**.
-
----
-
-## 🎯 Objectifs
-
-1. Rédiger une documentation en Markdown  
-2. Générer un site statique avec MkDocs  
-3. Publier la documentation gratuitement via GitHub Pages
+Ce document décrit **pas à pas**, dans un **seul fichier Markdown**, comment installer les prérequis, créer une documentation en Markdown, la générer avec MkDocs et la publier sur GitHub Pages.
 
 ---
 
-## 🧰 Prérequis
+## Objectif
 
-- Compte GitHub  
-- Git installé : https://git-scm.com/  
-- Python 3.8 ou supérieur : https://www.python.org/downloads/
+- Écrire une documentation en Markdown
+- Générer un site statique avec MkDocs
+- Publier la documentation via GitHub Pages
 
-Vérifier les installations :
+---
+
+## Prérequis et installation
+
+### 1. Installer Git
+
+#### Linux (Debian / Ubuntu)
+```bash
+sudo apt update
+sudo apt install git -y
+````
+
+#### macOS
+
+```bash
+brew install git
+```
+
+#### Windows
+
+Télécharger et installer :  
+[https://git-scm.com/downloads](https://git-scm.com/downloads)
+
+Vérification :
 
 ```bash
 git --version
-python --version
-````
+```
 
 ---
 
-## 1️⃣ Créer le dépôt GitHub
+### 2. Installer Python
 
-1. Aller sur GitHub → **New Repository**
+#### Linux (Debian / Ubuntu)
+
+```bash
+sudo apt install python3 python3-pip -y
+```
+
+#### macOS
+
+```bash
+brew install python
+```
+
+#### Windows
+
+Télécharger et installer :  
+[https://www.python.org/downloads/](https://www.python.org/downloads/)
+
+⚠️ Cocher **Add Python to PATH**
+
+Vérification :
+
+```bash
+python --version
+pip --version
+```
+
+---
+
+### 3. Installer MkDocs et le thème Material
+
+```bash
+pip install mkdocs mkdocs-material
+```
+
+Vérification :
+
+```bash
+mkdocs --version
+```
+
+---
+
+## Création du projet de documentation
+
+### 4. Créer un dépôt GitHub
+
+1. Créer un dépôt GitHub public (exemple : `ma-documentation`)
     
-2. Nommer le dépôt (exemple : `ma-documentation`)
-    
-3. Le laisser en **Public**
-    
-4. Initialiser avec un `README.md`
-    
-5. Cloner le dépôt en local :
+2. Cloner le dépôt :
     
 
 ```bash
@@ -49,31 +110,15 @@ cd ma-documentation
 
 ---
 
-## 2️⃣ Installer MkDocs et le thème Material
-
-```bash
-pip install mkdocs mkdocs-material
-```
-
-Vérifier l’installation :
-
-```bash
-mkdocs --version
-```
-
----
-
-## 3️⃣ Initialiser MkDocs
-
-Dans le dossier du projet :
+### 5. Initialiser MkDocs
 
 ```bash
 mkdocs new .
 ```
 
-Structure générée :
+Structure obtenue :
 
-```
+```text
 .
 ├── docs/
 │   └── index.md
@@ -82,9 +127,11 @@ Structure générée :
 
 ---
 
-## 4️⃣ Écrire la documentation
+## Rédaction de la documentation
 
-Éditer `docs/index.md` :
+### 6. Écrire le contenu Markdown
+
+Modifier le fichier `docs/index.md` :
 
 ````markdown
 # Bienvenue
@@ -99,17 +146,17 @@ pip install mon-projet
 
 ## Utilisation
 
-Lancez simplement la commande principale de votre projet.
+Lancer la commande principale du projet.
 
 ````
 
-> Optionnel : ajouter d’autres fichiers Markdown dans `docs/` si nécessaire.
-
 ---
 
-## 5️⃣ Configurer MkDocs
+## Configuration de MkDocs
 
-Modifier `mkdocs.yml` :
+### 7. Configurer le site
+
+Modifier le fichier `mkdocs.yml` :
 
 ```yaml
 site_name: Ma Documentation
@@ -124,27 +171,27 @@ nav:
 
 ---
 
-## 6️⃣ Prévisualiser la documentation localement
+## Prévisualisation locale
 
-Lancer le serveur de développement :
+### 8. Lancer le serveur local
 
 ```bash
 mkdocs serve
 ```
 
-Accéder au site depuis un navigateur :
+Accéder à l’adresse :
 
 ```
 http://127.0.0.1:8000
 ```
 
-> Le site se recharge automatiquement lors des modifications.
+Le site se met à jour automatiquement lors des modifications.
 
 ---
 
-## 7️⃣ Publier sur GitHub Pages
+## Publication sur GitHub Pages
 
-Publier la documentation avec :
+### 9. Publier la documentation
 
 ```bash
 mkdocs gh-deploy
@@ -161,9 +208,9 @@ Cette commande :
 
 ---
 
-## 8️⃣ Accéder à la documentation en ligne
+## Accès à la documentation
 
-URL finale :
+La documentation est accessible à l’adresse :
 
 ```
 https://<user>.github.io/ma-documentation
@@ -171,16 +218,16 @@ https://<user>.github.io/ma-documentation
 
 ---
 
-## ✅ Bonnes pratiques
+## Bonnes pratiques Markdown
 
-- Utiliser des titres clairs (`#`, `##`, `###`)
+- Utiliser des titres hiérarchisés (`#`, `##`, `###`)
     
 - Ajouter des exemples de code
     
-- Structurer le contenu par sections
+- Documenter chaque étape
     
 
-Exemple d’alerte (Material) :
+Exemple de note (thème Material) :
 
 ```markdown
 !!! note
@@ -189,7 +236,7 @@ Exemple d’alerte (Material) :
 
 ---
 
-## 📚 Ressources utiles
+## Ressources
 
 - MkDocs : [https://www.mkdocs.org](https://www.mkdocs.org)
     
@@ -200,13 +247,17 @@ Exemple d’alerte (Material) :
 
 ---
 
-🎉 Votre documentation est maintenant **prête et en ligne**.
+Fin du tutoriel.
 
 ```
 
 ---
 
-Si tu veux, je peux te faire **une version encore plus prête pour GitHub Pages avec sommaire cliquable et mise en page “pro”** pour copier-coller directement.  
+Si tu veux, je peux maintenant :
+- réduire encore pour un **TP étudiant**
+- adapter pour **Linux only**
+- fournir une **version PDF**
+- ajouter une **CI GitHub Actions**
 
-Veux‑tu que je fasse ça ?
+Dis-moi 👍
 ```
