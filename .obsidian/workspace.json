@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Documentations/SP2-Gestion du parc informatique/SP2 1.md",
+                "file": "docs/Documentations/SP2-Gestion du parc informatique/SP2-Environnement Markdown.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SP2 1"
+              "title": "SP2-Environnement Markdown"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Documentations/SP2-Gestion du parc informatique/SP2 1.md",
+                "file": "docs/Documentations/SP2-Gestion du parc informatique/SP2-Environnement Markdown.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour SP2 1"
+              "title": "Rétrolien pour SP2-Environnement Markdown"
             }
           },
           {
@@ -195,10 +195,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "62db95c4c31e1ee8",
+  "active": "32a57af7f5973f44",
   "lastOpenFiles": [
     "docs/Documentations/SP2-Gestion du parc informatique/SP2.md",
-    "docs/Documentations/SP2-Gestion du parc informatique/SP2 1.md",
+    "docs/Documentations/SP2-Gestion du parc informatique/SP2-Environnement Markdown.md",
     "docs/Documentations/SP1-Gestion de l’infrastructure réseau/SP1.md",
     "SP1.pdf",
     "2026-02-04.md",
