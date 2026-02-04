@@ -2,7 +2,7 @@
 ## Préparation des prérequis
 ### 1. Installer Git
 #### Linux (Debian / Ubuntu)
-#### Windows
+
 ```bash
 sudo apt update
 sudo apt install git -y
