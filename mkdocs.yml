@@ -31,7 +31,7 @@ markdown_extensions:
       alternate_style: true
 nav:
   - Accueil: index.md
-  - SP1-Gestion de l’infrastructure réseau: Documentations/SP1-Gestiondel’infrastructureréseau/SP1.md
+  - SP1-Gestion de l’infrastructure réseau: Documentations/SP1-Gestion de l’infrastructure réseau/SP1.md
   - SP2-Gestion du parc informatique: Documentations/SP2-Gestion du parc informatique/SP2.md
   - SP2-Gestion du parc informatique: Documentations/SP2-Gestion du parc informatique/SP2-Créer une documentation avec MkDocs et GitHub Pages.md
 
