@@ -1,4 +1,4 @@
-2. Installer Python
+####1. Installer Python
 ---
 ````markdown
 # Tutoriel complet : Créer une documentation avec MkDocs et GitHub Pages
