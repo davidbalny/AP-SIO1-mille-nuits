@@ -1,8 +1,6 @@
 ### 1. Installer Git
-#### macOS
----
-````markdown
 #### Linux (Debian / Ubuntu)
+---
 ```bash
 sudo apt update
 sudo apt install git -y
