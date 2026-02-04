@@ -195,8 +195,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "62db95c4c31e1ee8",
+  "active": "32a57af7f5973f44",
   "lastOpenFiles": [
+    "mkdocs.yml.sb-de41ac78-vQU5YM",
     "site/Documentations/SP2-Gestion du parc informatique/SP2-Créer une documentation avec MkDocs et GitHub Pages.html",
     "docs/Documentations/SP2-Gestion du parc informatique/SP2.md",
     "docs/Documentations/SP2-Gestion du parc informatique/SP2-Environnement Markdown.md",
@@ -210,7 +211,6 @@
     "site/Documentations/SP1-Gestion de l’infrastructure réseau",
     "site/Documentations",
     "site/index.html",
-    "site/404.html",
     "docs/Documentations/SP1-Gestion de l’infrastructure réseau/SP1.md",
     "2026-02-04.md",
     "Sans titre.canvas",
