@@ -1,24 +1,7 @@
-### 1. Installer Python
+### 1. Installer Git
+#### macOS
 ---
 ````markdown
-# Tutoriel complet : Créer une documentation avec MkDocs et GitHub Pages
-
-Ce document décrit pas à pas**, dans un **seul fichier Markdown**, comment installer les prérequis, créer une documentation en Markdown, la générer avec MkDocs et la publier sur GitHub Pages.
-
----
-
-## Objectif
-
-- Écrire une documentation en Markdown
-- Générer un site statique avec MkDocs
-- Publier la documentation via GitHub Pages
-
----
-
-## Prérequis et installation
-
-### 1. Installer Git
-
 #### Linux (Debian / Ubuntu)
 ```bash
 sudo apt update
