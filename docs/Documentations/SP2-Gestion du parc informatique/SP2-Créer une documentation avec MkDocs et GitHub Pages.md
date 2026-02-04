@@ -1,5 +1,5 @@
 # Créer une documentation avec MkDocs et GitHub Pages
-## Pré
+## Préparation des prérequis
 ### 1. Installer Git
 #### Linux (Debian / Ubuntu)
 ---
