@@ -1,8 +1,3 @@
-Parfait, merci pour la précision 👍  
-Voici **UN SEUL fichier Markdown**, **copier-coller direct**, **auto-suffisant**, avec **l’installation des prérequis incluse**.  
-Tu peux le coller tel quel dans `docs/index.md` ou `README.md`.
-
-Aucun blabla autour, **juste la page MD complète** 👇
 
 ---
 
