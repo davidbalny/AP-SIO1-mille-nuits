@@ -1,4 +1,4 @@
-####Objectif
+2. Installer Python
 ---
 ````markdown
 # Tutoriel complet : Créer une documentation avec MkDocs et GitHub Pages
