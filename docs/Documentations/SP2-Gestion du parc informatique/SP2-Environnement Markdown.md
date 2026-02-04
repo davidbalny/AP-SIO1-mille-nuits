@@ -1,14 +1,22 @@
 Tutoriel complet : Créer une documentation avec MkDocs et GitHub Pages
 ---
+Objectif
 
-````markdown
-# Tutoriel complet : Créer une documentation avec MkDocs et GitHub Pages
+- Écrire une documentation en Markdown
+- Générer un site statique avec MkDocs
+- Publier la documentation via GitHub Pages
+Prérequis et installation
 
-Ce document décrit pas à pas**, dans un **seul fichier Markdown**, comment installer les prérequis, créer une documentation en Markdown, la générer avec MkDocs et la publier sur GitHub Pages.
+### 1. Installer Git
 
+#### Linux (Debian / Ubuntu)
+```bash
+sudo apt update
+sudo apt install git -y
 ---
 
-## Objectif
+````markdown
+Objectif
 
 - Écrire une documentation en Markdown
 - Générer un site statique avec MkDocs
