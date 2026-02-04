@@ -6,18 +6,7 @@
 ```bash
 sudo apt update
 sudo apt install git -y
-````
-
-```bash
-git --version
 ```
-
-#### macOS
-
-```bash
-brew install git
-````
-
 #### macOS
 
 ```bash
