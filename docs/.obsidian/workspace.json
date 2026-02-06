@@ -25,12 +25,14 @@
             "id": "c5e992570f4fbc10",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.11.7"
+                "file": "Documentations/SP2-Gestion du parc informatique/SP2-Mission1-Créer une documentation avec MkDocs et GitHub Pages.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.7"
+              "icon": "lucide-file",
+              "title": "SP2-Mission1-Créer une documentation avec MkDocs et GitHub Pages"
             }
           }
         ],
