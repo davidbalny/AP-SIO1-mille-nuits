@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "SP2-Mission1-Créer une documentation avec MkDocs et GitHub Pages"
             }
+          },
+          {
+            "id": "c5e992570f4fbc10",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,7 +194,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "c91d313acd1fecaa",
+  "active": "c5e992570f4fbc10",
   "lastOpenFiles": [
     "Documentations/SP2-Gestion du parc informatique/SP2-Mission2-Installation des nouveaux postes clients.md",
     "Documentations/SP2-Gestion du parc informatique/SP2-Mission1-Créer une documentation avec MkDocs et GitHub Pages.md",
