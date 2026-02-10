@@ -85,6 +85,6 @@ Principaux acteurs du marché français :
 ---
 
 ### Serveurs (site historique)
-- **MN01** : AD, DNS, DHCP, fichiers
-- **MN02** : messagerie
-- **MN03** : PGI (ventes, achats, stocks, comptabilité)
+- **MN01** : AD, DNS, DHCP, fichiers.
+- **MN02** : messagerie.
+- **MN03** : PGI (ventes, achats, stocks, comptabilité).
