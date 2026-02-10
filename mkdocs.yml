@@ -32,10 +32,10 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.tabbed:
       alternate_style: true
-#nav:
-  #- Accueil: index.md
-  #- SP1-Gestion de l’infrastructure réseau: Documentations/SP1-Gestion de l’infrastructure réseau/SP1.md
+nav:
+  - Accueil: index.md
+  - SP1-Gestion de l’infrastructure réseau: Documentations/SP1-Gestion de l’infrastructure réseau/SP1.md
   #- SP2-Mission1-Créer une documentation avec MkDocs et GitHub Pages: Documentations/SP2-Gestion du parc informatique/SP2-Mission1-Créer une documentation avec MkDocs et GitHub Pages.md
-  #- SP2-Mission2-Installation des nouveaux postes clients: Documentations/SP2-Gestion du parc informatique/SP2-Mission2-Installation des nouveaux postes clients.md
+  - SP2-Mission2-Installation des nouveaux postes clients: Documentations/SP2-Gestion du parc informatique/SP2-Mission2-Installation des nouveaux postes clients.md
 
 use_directory_urls: false
