@@ -45,7 +45,7 @@ Principaux acteurs du marché français :
   - Logistique : 36
   - Ventes : 24
   - Informatique : 3
-  - Autres services (qualité, BE, achats, RH, direction…)
+  - Autres services (qualité, BE, achats, RH, direction…).
 
 ---
 
