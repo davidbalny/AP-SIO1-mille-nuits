@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Documentations/SP1-Gestion de l’infrastructure réseau/SP1.md",
+                "file": "docs/Documentations/SP2-Gestion du parc informatique/SP2-Mission2-Installation des nouveaux postes clients.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SP1"
+              "title": "SP2-Mission2-Installation des nouveaux postes clients"
             }
           }
         ]
@@ -197,8 +197,8 @@
   },
   "active": "62db95c4c31e1ee8",
   "lastOpenFiles": [
-    "docs/Documentations/SP2-Gestion du parc informatique/SP2-Mission2-Installation des nouveaux postes clients.md",
     "docs/Documentations/SP2-Gestion du parc informatique/SP2-Mission1-Créer une documentation avec MkDocs et GitHub Pages.md",
+    "docs/Documentations/SP2-Gestion du parc informatique/SP2-Mission2-Installation des nouveaux postes clients.md",
     "docs/Documentations/SP1-Gestion de l’infrastructure réseau/SP1.md",
     "docs/index.md",
     "site/search/search_index.json",
