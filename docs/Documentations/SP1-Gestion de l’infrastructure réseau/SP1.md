@@ -1,6 +1,6 @@
 # Calcul des besoins en hôtes et plan d’adressage IP
 
-## Calcul des besoins en hôtes (avec marge)
+## Calcul des besoins en hôte (avec marge)
 
 Une marge de **20 %** est appliquée afin d’anticiper les évolutions futures (nouveaux postes, équipements supplémentaires).
 
