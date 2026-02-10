@@ -2,18 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://davidbalny.github.io/AP-SIO1-mille-nuits/index.html</loc>
-         <lastmod>2026-02-05</lastmod>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
          <loc>https://davidbalny.github.io/AP-SIO1-mille-nuits/Documentations/SP1-Gestion%20de%20l%E2%80%99infrastructure%20r%C3%A9seau/SP1.html</loc>
-         <lastmod>2026-02-05</lastmod>
+         <lastmod>2026-02-10</lastmod>
+    </url>
+    <url>
+         <loc>https://davidbalny.github.io/AP-SIO1-mille-nuits/Documentations/SP2-Gestion%20du%20parc%20informatique/index.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
          <loc>https://davidbalny.github.io/AP-SIO1-mille-nuits/Documentations/SP2-Gestion%20du%20parc%20informatique/SP2-Mission1-Cr%C3%A9er%20une%20documentation%20avec%20MkDocs%20et%20GitHub%20Pages.html</loc>
-         <lastmod>2026-02-05</lastmod>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
          <loc>https://davidbalny.github.io/AP-SIO1-mille-nuits/Documentations/SP2-Gestion%20du%20parc%20informatique/SP2-Mission2-Installation%20des%20nouveaux%20postes%20clients.html</loc>
-         <lastmod>2026-02-05</lastmod>
+         <lastmod>2026-02-10</lastmod>
     </url>
 </urlset>
