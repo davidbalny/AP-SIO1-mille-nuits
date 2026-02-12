@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Documentations/SP2-Gestion du parc informatique/index.md",
+                "file": "docs/Documentations/SP1-Gestion de l’infrastructure réseau/SP1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "SP1"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 300
   },
   "right": {
     "id": "8c963e0a0ea7d6b8",
@@ -171,8 +171,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -195,30 +195,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "32a57af7f5973f44",
+  "active": "62db95c4c31e1ee8",
   "lastOpenFiles": [
+    "docs/Documentations/SP2-Gestion du parc informatique/SP2-Mission1-Créer une documentation avec MkDocs et GitHub Pages.md",
+    "site/Documentations/SP2-Gestion du parc informatique/index.html",
+    "docs/Documentations/SP2-Gestion du parc informatique/index.md",
+    "docs/Documentations/SP2-Gestion du parc informatique/SP2-Mission2-Installation des nouveaux postes clients.md",
     "site/search/search_index.json",
     "site/search",
     "site/Documentations/SP2-Gestion du parc informatique/SP2-Mission2-Installation des nouveaux postes clients.html",
     "site/Documentations/SP2-Gestion du parc informatique/SP2-Mission1-Créer une documentation avec MkDocs et GitHub Pages.html",
-    "site/Documentations/SP2-Gestion du parc informatique/index.html",
-    "site/Documentations/SP2-Gestion du parc informatique",
     "site/Documentations/SP1-Gestion de l’infrastructure réseau/SP1.html",
+    "site/Documentations/SP2-Gestion du parc informatique",
     "site/Documentations/SP1-Gestion de l’infrastructure réseau",
     "site/Documentations",
     "site/index.html",
-    "site/404.html",
-    "docs/index.md",
-    "docs/Documentations/SP2-Gestion du parc informatique/index.md",
-    "docs/Documentations/SP2-Gestion du parc informatique/SP2-Mission1-Créer une documentation avec MkDocs et GitHub Pages.md",
-    "docs/Documentations/SP2-Gestion du parc informatique/SP2-Mission2-Installation des nouveaux postes clients.md",
-    "docs/Documentations/SP1-Gestion de l’infrastructure réseau/SP1.md",
     "docs/Documentations/SP2-Gestion du parc informatique/SP2.md",
     "docs/Documentations/SP2-Gestion du parc informatique/SP2-Créer une documentation avec MkDocs et GitHub Pages.md",
+    "docs/Documentations/SP1-Gestion de l’infrastructure réseau/SP1.md",
     "docs/Documentations/SP2-Gestion du parc informatique/SP2-Environnement Markdown.md",
     "2026-02-04.md",
     "Sans titre.canvas",
     "venv/lib/python3.14/site-packages/idna-3.11.dist-info/licenses/LICENSE.md",
+    "docs/index.md",
     "site/assets/logo-ap.png",
     "site/assets/images/logo-ap.png",
     "docs/assets/logo-ap.png",
